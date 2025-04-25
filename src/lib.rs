@@ -1046,7 +1046,7 @@ pub unsafe fn FT_HAS_COLOR(face: FT_Face) -> bool {
     unsafe { (*face).face_flags & FT_FACE_FLAG_COLOR != 0 }
 }
 
-extern "C" {
+unsafe extern "C" {
     pub fn FT_Init_FreeType(alibrary: *mut FT_Library) -> FT_Error;
     pub fn FT_Done_FreeType(library: FT_Library) -> FT_Error;
     pub fn FT_Set_Default_Properties(library: FT_Library);

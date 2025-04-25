@@ -9,7 +9,7 @@ keywords = ["freetype", "ffi"]
 description = "Low level binding for FreeType font library (PNG support disabled)"
 license = "MIT"
 readme = "README.md"
-edition = "2018"
+edition = "2024"
 
 [features]
 bundled = []
