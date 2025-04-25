@@ -1,16 +1,14 @@
 [package]
 
-name = "freetype-sys"
-version = "0.23.0"
-authors = ["Coeuvre <coeuvre@gmail.com>"]
+name = "freetype-sys-nopng"
+version = "0.24.0"
+authors = ["crumblingstatue"]
 links = "freetype"
 build = "build.rs"
 keywords = ["freetype", "ffi"]
-description = "Low level binding for FreeType font library"
+description = "Low level binding for FreeType font library (PNG support disabled)"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/PistonDevelopers/freetype-sys.git"
-homepage = "https://github.com/PistonDevelopers/freetype-sys"
 edition = "2018"
 
 [features]

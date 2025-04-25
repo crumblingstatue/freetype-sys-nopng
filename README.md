@@ -1,4 +1,4 @@
-freetype-sys [![Build Status](https://github.com/PistonDevelopers/freetype-sys/actions/workflows/ci.yml/badge.svg)](https://github.com/PistonDevelopers/freetype-sys/actions/workflows/ci.yml)
+(Fork of) freetype-sys [![Build Status](https://github.com/PistonDevelopers/freetype-sys/actions/workflows/ci.yml/badge.svg)](https://github.com/PistonDevelopers/freetype-sys/actions/workflows/ci.yml)
 ============
 
 Low level bindings for the FreeType font library.
